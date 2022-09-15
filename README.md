@@ -22,8 +22,9 @@
    <li>No terminal escreva o comando: npm start </li>
    <li>Pedro</li>
    <li>Pedro</li>
-    
+    <div style="display: inline_block"><br>
     <img align="center" alt="Pedro-Js" heigth="130" width="120" src="./public/img/print-1.png">
+    </div>
   </ol>
   </p>
 </h4>

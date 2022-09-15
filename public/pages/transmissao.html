@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="../js/page.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js"></script>
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/page.css" />
+
+    <title>Erural-videos</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="bar">
+        <img src="../img/erural_logo.png" alt="erual" />
+
+        <button class="btn-login">Login</button>
+        <!-- Esse button nao esta fazendo um login especifico neste projeto -->
+      </div>
+
+      <div class="naveg">
+        <div class="home">
+          <a href="https://www.erural.net/">
+            <h3>INICIO</h3>
+          </a>
+
+          <a href="https://www.erural.net/agenda-eventos">
+            <h3>AGENDA DE EVENTOS</h3>
+          </a>
+
+          <a
+            href="https://www.erural.net/search?classifications=Reposi%C3%A7%C3%A3o"
+          >
+            <h3>REPOSIÇÃO</h3>
+          </a>
+
+          <a
+            href="https://www.erural.net/search?classifications=Gen%C3%A9tica&genetic=P.O.%2CP.A.%2CP.C.%2CCEIP"
+          >
+            <h3>GENÉTICA</h3>
+          </a>
+
+          <a href="https://www.erural.net/search?categories=S%C3%AAmen+Genex">
+            <h3>SÊMEN GENEX</h3>
+          </a>
+
+          <a href="https://www.erural.net/venda_conosco">
+            <h3>VENDA CONOSCO</h3>
+          </a>
+
+          <a href="https://erural.solides.jobs/">
+            <h3>TRABALHE NA ERURAL</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box">
+          <div class="box-1">
+            <span class="user">Pedro</span>
+          </div>
+
+          <div class="box-2">
+            <span class="user">Marco</span>
+          </div>
+
+          <div class="box-3">
+            <span class="user">Arthur</span>
+          </div>
+
+          <div class="box-4">
+            <span class="user">Lara</span>
+          </div>
+        </div>
+
+        <div class="chat-text">
+          <form id="chat">
+            <input type="text" name="username" placeholder="Digite seu nome" />
+            <div class="messages"></div>
+            <input
+              type="text"
+              name="message"
+              placeholder="Digite sua mensagem"
+            />
+            <button class="btn-message" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="group">
+        <button class="btn-voltar">sair</button>
+      </div>
+    </main>
+    <script type="text/javascript">
+      var socket = io("http://localhost:3000");
+
+      function renderMessage(message) {
+        $(".messages").append(
+          '<div class="messages"><strong>' +
+            message.author +
+            "</strong>" +
+            message.message +
+            "</div>"
+        );
+      }
+
+      $("#chat").submit(function (event) {
+        event.preventDefault();
+
+        var author = $(".input[name=username]").val();
+        var message = $(".input[name=username]").val();
+
+        if (author.length && message.length) {
+          var messageObject = {
+            author: author,
+            message: message,
+          };
+
+          renderMessage(messageObject);
+
+          socket.emit("");
+        }
+      });
+    </script>
+  </body>
+</html>

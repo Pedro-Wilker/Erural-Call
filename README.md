@@ -1,8 +1,6 @@
-<h1>Passo a Passo par usar o projeto </h1>
+<h1> Desafio técnico Pessoa Estagiária de Desenvolvimento de Software!</h1>
 <br/>
 <br/>
-<br/>
-
 <h3>Este é um projeto para o desafio técnico da Erural</h3> <br/>
 -Qual o objetivo do projeto :
   Desenvolver uma aplicação de transmissão de um vídeo, onde os usuários podem criar uma sala e outros podem entrar na sala para assistir

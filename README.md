@@ -54,4 +54,18 @@
  </li>
  </ol>
  </p>
+ 
+ 
+ ## Sobre a aplicação:
+ 
+ <p>
+  <h4>Está aplicação foi desenvolvida por Pedro Wilker </h4>
+  <ol>
+  <li>FrameWork</li>
+  <p>-NodeJS </p>
+   <li>API'S utilizadas</li>
+  <p>-<a href="https://webrtc.org/">WebRTC</a></p>
+  <p>-<a href="https://dev.to/cesarpaulomp/crie-seu-app-de-video-chat-com-webrtc-1jea">Video Chat P2P</a></p>
+  </ol>
+  </p>
 

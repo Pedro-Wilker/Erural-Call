@@ -69,6 +69,6 @@
   </ol>
   </p>
 
-<h6>Obs: Para um outro usario se conectar a sala criada você pode se conectar através de seu ip <br>
+<h4>Obs: Para um outro usario se conectar a sala criada você pode se conectar através de seu ip <br>
 Após isso acesse chrome://flags/#unsafely-treat-insecure-origin-as-secure marque a opção Insecure origins treated as secure <br>
-E entre com seu ip :3000 </h6>
+E entre com seu ip :3000 </h4>

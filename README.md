@@ -16,7 +16,7 @@
    <li>Abra um terminal no VSCode e escreva o comando npm i ou npm install</li> <br/>
    <pre class="Box-sc-1b6inku-0 BorderBox-sc-1y9cbfx-0 jRndWL prism-code language-" style="color:#393A34;background-color:#f6f8fa;overflow:auto";><div class="token-line" style="color:#393A34"><span font-family="mono" font-size="1" class="Text-sc-1g6etse-0 bbMPSg token plain">npm install</span></div></pre>
     <h3>ou</h3><br/>
- <pre class="Box-sc-1b6inku-0 BorderBox-sc-1y9cbfx-0 jRndWL prism-code language-" style="color:#393A34;background-color:#f6f8fa;overflow:auto";><div class="token-line" style="color:#393A34" width:"10px"><span font-family="mono" font-size="1" class="Text-sc-1g6etse-0 bbMPSg token plain">npm</span></div></pre><br/>
+ <pre class="Box-sc-1b6inku-0 BorderBox-sc-1y9cbfx-0 jRndWL prism-code language-" style="color:#393A34;background-color:#f6f8fa;overflow:auto";><div class="token-line" style="color:#393A34" width:"10px"><span font-family="mono" font-size="1" class="Text-sc-1g6etse-0 bbMPSg token plain">npm i</span></div></pre><br/>
     <p>2.2 Este comando vai baixar as dependências necessárias para o programa rodar </p> <br/>
     <p>2.3 Após as dependências serem instaladas, siga os proximos passos: </p>
    <li>No terminal escreva o comando: npm start </li>

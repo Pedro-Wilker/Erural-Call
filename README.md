@@ -22,9 +22,9 @@
    <li>No terminal escreva o comando: npm start </li>
    <li>Pedro</li>
    <li>Pedro</li>
-    <div style="display: inline_block"><br>
+  
     ![alt text](https://raw.githubusercontent.com/Pedro-Wilker/Erural-Call/main/public/img/to/print-1.png)
-    </div>
+    
   </ol>
   </p>
 </h4>

@@ -1,4 +1,4 @@
-<h1> Desafio técnico Pessoa Estagiária de Desenvolvimento de Software!</h1>
+<h1> Desafio técnico Pessoa Estagiária de Desenvolvimento de Software</h1>
 <br/>
 <br/>
 <h3>Este é um projeto para o desafio técnico da Erural</h3> <br/>
@@ -11,8 +11,10 @@
 <h4>
   <p>
   <ol>
-   <li>Pedro</li>
-   <li>Pedro</li>
+   <li>Clone o repository ou baixe como arquivo zip</li>
+    <h5>Caso esteja utilizando VSCode, siga o passo abaixo:</h5>
+   <li>Abra um terminal no VSCode e escreva o comando npm i ou npm install</li>
+    <p>Este comando vai baixar as dependências necessárias para o programa rodar </p>
    <li>Pedro</li>
    <li>Pedro</li>
    <li>Pedro</li>

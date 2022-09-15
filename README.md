@@ -12,9 +12,9 @@
   <p>
   <ol>
    <li>Clone o repository ou baixe como arquivo zip</li>
-    <h5>Caso esteja utilizando VSCode, siga o passo abaixo:</h5>
-   <li>Abra um terminal no VSCode e escreva o comando npm i ou npm install</li>
-    <p>Este comando vai baixar as dependências necessárias para o programa rodar </p>
+    <h5>Obs: Caso esteja utilizando VSCode, siga o passo abaixo:</h5>
+   <li>Abra um terminal no VSCode e escreva o comando npm i ou npm install</li> <br/>
+    <p>2.2-Este comando vai baixar as dependências necessárias para o programa rodar </p>
    <li>Pedro</li>
    <li>Pedro</li>
    <li>Pedro</li>

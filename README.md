@@ -1,12 +1,10 @@
 <h1> Desafio técnico Pessoa Estagiária de Desenvolvimento de Software</h1>
-<br/>
-<br/>
 <h3>Este é um projeto para o desafio técnico da Erural</h3> <br/>
 -Qual o objetivo do projeto :
   Desenvolver uma aplicação de transmissão de um vídeo, onde os usuários podem criar uma sala e outros podem entrar na sala para assistir
   a este vídeo.
   
- <h2>Passo a Passo</h2>
+ ## Passo a Passo
 
 <h4>
   <p>
@@ -23,8 +21,6 @@
    <li>Pedro</li>
    <li>Pedro</li>
   
-    ![alt text](https://raw.githubusercontent.com/Pedro-Wilker/Erural-Call/main/public/img/to/print-1.png)
-    
   </ol>
   </p>
 </h4>
